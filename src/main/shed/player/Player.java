@@ -3,7 +3,6 @@ package main.shed.player;
 import javax.swing.*;
 import main.shed.player.ui.Download;
 
-
 /**
  * Player.java
  *
@@ -18,9 +17,7 @@ import main.shed.player.ui.Download;
  *
  */
 
-
 public class Player {
-
 
     public static void main(String[] args) {
 
@@ -30,7 +27,6 @@ public class Player {
             UIManager.setLookAndFeel("de.javasoft.plaf.synthetica.SyntheticaAluOxideLookAndFeel");
 
             Download.load();
-
 
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

@@ -1,6 +1,5 @@
 package main.shed.player.ui;
 
-
 import javax.swing.*;
 
 /**
@@ -16,7 +15,6 @@ import javax.swing.*;
  * @since August 13, 2014
  *
  */
-
 
 public class Download extends JFrame {
 
@@ -34,9 +32,7 @@ public class Download extends JFrame {
         /** Setting the location of the frame to the center of the screen **/
         setLocationRelativeTo(null);
 
-
     }
-
 
     public static void load(){
         new Download();
